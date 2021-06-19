@@ -1,0 +1,46 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: rgb(75, 75, 255) 3px solid;
+}
+.row{
+    padding-top: 140px;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0, 0.6)), url(/img/1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.fa-check{
+  background-color: #fff;
+    color: rgb(80, 80, 226);
+    padding: 6px;
+    border-radius: 5px;
+
+}
+.card-form{
+    opacity: 0.8;
+}
+#explore{
+    background-color: rgb(235, 232, 232);
+}
+.con{
+    background-color: rgb(235, 232, 232);
+}
+.text{
+    margin-bottom: -50px;
+}
+.navbar-nav .nav-link:active{
+        color: #0AF3A9 !important;
+    }
